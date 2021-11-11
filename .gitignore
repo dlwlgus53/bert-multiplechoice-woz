@@ -7,7 +7,7 @@ data/
 logs/
 out/
 runs/
-
+model/
 
 # C extensions
 *.so

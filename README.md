@@ -1,2 +1,2 @@
-# bert-multiplechoice-woz
-bert multiplechoice woz
+# bert-multiplcechoice-qa
+bert for multiple choice

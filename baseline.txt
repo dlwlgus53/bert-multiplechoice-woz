@@ -1,0 +1,48 @@
+Model	RACE	RACE-M	RACE-H
+BERT_base	65.0	71.7	62.3
+BERT_large	67.9	75.6	64.7
+
+hotel.semi.type 3 61.1% × X
+hotel.semi.internet 3 62.1% × X
+hotel.semi.parking 4 63.1% × X
+restaurant.semi.pricerange 4 97.8% X X
+hotel.semi.pricerange 6 97.7% X X
+hotel.semi.area 6 98.8% X X
+attraction.semi.area 6 99.0% X X
+restaurant.semi.area 6 99.2% X X
+hotel.semi.stars 7 99.2% X X
+hotel.book.people 8 98.2% X X
+hotel.book.stay 8 98.9% X X
+train.semi.day 8 99.3% X X
+restaurant.book.day 8 98.7% X X
+restaurant.book.people 8 99.1% X X
+hotel.book.day 11 98.1% X X
+
+최대 13개  don't care, none 합쳐서
+
+tmux 0 : 원래 나와야 할 성능 : 65.0 -> 나는 24
+
+# {
+#     "answer": "A",
+#     "article": "\"Schoolgirls have been wearing such short skirts at Paget High School in Branston that they've been ordered to wear trousers ins...",
+#     "example_id": "high132.txt",
+#     "options": ["short skirts give people the impression of sexualisation", "short skirts are too expensive for parents to afford", "the headmaster doesn't like girls wearing short skirts", "the girls wearing short skirts will be at the risk of being laughed at"],
+#     "question": "The girls at Paget High School are not allowed to wear skirts in that    _  ."
+# }
+
+
+
+{
+"answer":"string"
+"choice":{
+"[]":"string"
+}
+"dialogue":{
+"[]":"string"
+}
+"dialogue_id":"string"
+"id":"int32"
+"question":"string"
+}
+
+
